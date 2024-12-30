@@ -1,0 +1,157 @@
+.toggle-switch {
+  width: 60px;
+  height: 30px;
+  background: #ccc;
+  border-radius: 25px;
+  position: relative;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.toggle-switch.toggled {
+  background: #504db6;
+}
+
+.toggle-switch-handle {
+  width: 27px;
+  height: 28px;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  transition: left 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.toggle-switch-handle i {
+  color: #ccc;
+}
+
+.toggle-switch.toggled .toggle-switch-handle {
+  left: 34px;
+}
+
+.toggle-switch.toggled .toggle-switch-handle i {
+  color: #ccc; 
+}
+
+
+.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+}
+.light-mode #root{
+  background-color: white;
+}
+
+.light-mode .header, .light-mode .side-nav {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.light-mode .main-dashboard {
+  background-color: #f4f4f4;
+  color: #000000;
+}
+
+.light-mode .task {
+  /* background-color: #f4f4f4; */
+  color: #000000;
+}
+
+.light-mode .task:hover {
+  /* background-color: #d4d4d4; */
+}
+
+
+
+.light-mode .toggle-switch {
+  background: #b3b3b3;
+}
+
+.light-mode .toggle-switch.toggled {
+  background: #4b39ef;
+}
+
+.light-mode .side-nav-links {
+  li:hover, li.active {
+      background: #f4f4f4;
+      /* box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 12px; */
+      color: black;
+  }
+}
+.light-mode .side-nav-links {
+  li {
+      background: white;
+      color: black;
+  }
+}
+
+.light-mode .eng-name h4 {
+  color: black;
+}
+
+.light-mode .monthly-data-box {
+  background: white;
+  color: black;
+}
+
+.light-mode .number-box {
+  color: black;
+}
+
+.light-mode .graph {
+  background: white;
+}
+
+.light-mode .graph-title {
+  color: black;
+}
+.light-mode .data-labeler-dashboard h4 {
+  color: black;
+}
+
+.light-mode .calendar-section, .task-section, .activity-section {
+  background-color: white;
+}
+.light-mode .task-section {
+  background-color: white;
+}
+.light-mode .activity-section {
+  background-color: white;
+}
+.light-mode .task-title  {
+  color: black;
+}
+.light-mode .date , .task-title  {
+  color: black;
+}
+
+.light-mode .year {
+  color: black;
+}
+
+.light-mode button {
+  color: #000000;
+}
+
+.light-mode .activity-status {
+  color: black;
+}
+
+.light-mode .activity-section .activity {
+  background:#f4f4f4 ;
+}
+.light-mode .user-name {
+  color: #000000;
+}
+.light-mode .notifications .notification-icon {
+  color: black !important;
+}
+
+.light-mode .profile .profile-icon {
+  color: black !important;
+}

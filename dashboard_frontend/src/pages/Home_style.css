@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    /* font-family: 'Montserrat', sans-serif; */
+}
+
+.landing {
+    height: 100vh;
+    width: 100%;
+    /* background: #F6F4FF; */
+    background: #242933;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-content {
+    width: 60%;
+    text-align: center;
+}
+
+.main-text h1 {
+    font-size: 40px;
+    color: rgb(235, 235, 235);
+    font-family: 'Lato', sans-serif;
+}
+
+.main-text p {
+    margin-top: 10px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #BFBFBF;
+}
+
+.main-content button {
+    margin-top: 10px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    padding: 0.5rem 2.5rem 0.5rem 1rem;
+    border-radius: 0 50% 50% 0;
+    background-color: #494234;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.main-content button:hover {
+    background-color: #C8EBB1;
+    color: #494234;
+}
+
+.right {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    margin-top: 50px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.image {
+    width: 85px!important;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: -5px 5px 17px rgba(0,0,0,0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+}
+
+.image img {
+    width: 70%;
+}
+
+.image:hover {
+    /* background-color: rgba(73,66,52,0.7); */
+    background-color: #3D3F43;
+}
+
+.inner-box {
+    margin-top: 1.5rem;
+    text-align: center;
+}
+
+.inner-box h3 {
+    font-size: 24px;
+    color: rgb(235, 235, 235);
+    font-weight: 900;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.inner-box p {
+    font-size: 14px;
+    color: #BFBFBF;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+
+.inner-box button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+    background: linear-gradient(135deg, #2c2c54, #4b4b8c);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.2em;
+}
+
+.inner-box button:hover {
+    background: linear-gradient(135deg, #504db6, #9758FF);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 12px;
+}
+.linkStyle {
+    color: inherit;
+    text-decoration: none;
+  }
